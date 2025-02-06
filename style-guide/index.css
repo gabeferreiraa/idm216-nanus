@@ -153,6 +153,132 @@ p {
   object-fit: cover;
 }
 
+.menu-card {
+  display: flex;
+  width: 200px;
+  height: 200px;
+  padding: 5.972px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5.972px;
+  border-radius: 4.977px;
+  border: 0.995px solid #5C0A0A;
+  background: #FFF;
+  box-shadow: 0px 1.991px 1.991px 0px rgba(0, 0, 0, 0.35);
+  margin: 0 auto;
+  margin-bottom: 3rem;
+}
+
+.menu-card h2 {
+  align-self: stretch;
+  color: #191716;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%; /* 10.352px */
+  letter-spacing: 0.08px;
+}
+
+.menu-card h3 {
+  color:#5C0A0A;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%; /* 10.352px */
+  letter-spacing: 0.08px;
+}
+
+.menu-card img {
+  width: 150px;
+  height: auto;
+  position: relative;
+  right: -20px;
+  bottom: 10px;
+  border-radius: 4.977px;
+}
+
+.input-log-in{
+  border-radius: 14px;
+  border: 1px solid var(--nanus-black, #191716);
+  background: var(--nanus-lightgray, #E8E8E8);
+  width: 313px;
+  height: 37px;
+  text-indent: 1rem;
+}
+
+input::placeholder {
+  color: black;
+}
+
+input:focus::placeholder {
+  color: transparent;
+}
+
+.edit-button {
+  width: 100px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.edit-button:active {
+  filter: invert(20%) sepia(78%) saturate(2534%) hue-rotate(347deg) brightness(83%) contrast(115%);
+}
+
+.delete-button {
+  width: 100px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.delete-button:active {
+  filter: invert(20%) sepia(78%) saturate(2534%) hue-rotate(347deg) brightness(83%) contrast(115%);
+}
+
+.spice {
+  -webkit-appearance: none;  /* Override default CSS styles */
+  appearance: none;
+  width: 50%; /* Full-width */
+  height: 25px; /* Specified height */
+  border-radius: 20px;
+  background: linear-gradient(90deg, #00A110 0%, #FFA100 50%, #FF0003 100%);
+  outline: none; /* Remove outline */
+}
+
+.spice::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Override default look */
+  appearance: none;
+  width: 38px; /* Set a specific slider handle width */
+  height: 38px; /* Slider handle height */
+  background-image: url(../images/style-guide-images/spice_slider_handle.svg); /* Green background */
+  cursor: pointer; /* Cursor on hover */
+}
+
+.spice::-moz-range-thumb {
+  width: 25px; /* Set a specific slider handle width */
+  height: 25px; /* Slider handle height */
+  background-image: url(../images/style-guide-images/spice_slider_handle.svg); /* Green background */
+  cursor: pointer; /* Cursor on hover */
+}
+
+.notes {
+  border-radius: 9px;
+  border: 1px solid var(--nanus-black, #191716);
+  background: var(--nanus-lightgray, #E8E8E8);
+  text-indent: .5rem;
+}
+
+.button {
+  width: fit-content;
+  height: auto;
+  padding: 1rem;
+  flex-shrink: 0;
+  border-radius: 5rem;
+  border: 0.991px solid var(--nanus-black, #191716);
+  background: var(--nanus-white, #FFF);
+  margin: 0 auto;
+  margin-bottom: 1rem;
+}
+
 /* Responsive adjustments */
 @media (max-width: 768px) {
   .gallery-container {
