@@ -267,7 +267,7 @@ input:focus::placeholder {
   text-indent: .5rem;
 }
 
-.button {
+.btn {
   width: fit-content;
   height: auto;
   padding: 1rem;
@@ -277,6 +277,11 @@ input:focus::placeholder {
   background: var(--nanus-white, #FFF);
   margin: 0 auto;
   margin-bottom: 1rem;
+}
+
+.btn:active {
+  background-color: #000;
+  color: #FFF;
 }
 
 /* Responsive adjustments */
