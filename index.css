@@ -37,6 +37,11 @@ body {
   max-width: 150px;
   height: auto;
 }
+.casestudy-logo {
+  object-fit: cover;
+  max-width: 300px;
+  height: auto;
+}
 
 .title {
   text-align: center;
